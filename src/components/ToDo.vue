@@ -7,7 +7,7 @@
     <ul>
       <li v-for="(task, index) in tasks" :key="index" class="taskItem">
         {{ task }}
-        <button class="deleteButton" @click="() => deleteTaskHandler(index)">X</button>
+        <button class="deleteButton" @click="deleteTaskHandler(index)">X</button>
       </li>
     </ul>
   </div>
