@@ -51,12 +51,16 @@ ul {
 }
 
 .addButton {
-  padding: 6px;
+  padding: 8.7px;
   background-color: aquamarine;
   border: none;
   padding-left: 15px;
   padding-right: 15px;
-  height:100%
+  height:100%;
+  border: 1px solid #3D52A0;
+  border-left:none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .taskItem {
@@ -85,9 +89,12 @@ li:nth-child(even) {
 }
 
 input {
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 10px;
   width: calc(100% - 60px);
   text-align: center;
+  border: 1px solid #3D52A0;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 </style>
