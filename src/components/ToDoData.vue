@@ -15,7 +15,7 @@ const tasks = ref([]);
 
 // When component mounts task are retrieved from localStorage
 onMounted(() => {
-  const storedTasks = JSON.parse(localStorage.getItem('tasks'));
+  const storedTasks = JSON.parse(localStorage.getItem('tasks') || []);
   tasks.value = storedTasks; 
 });
 
