@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="adding">
-      <input v-model="newTask" placeholder="New task" />
+      <input v-model="newTask" placeholder="New task" @keyup.enter="addTaskHandler"/>
       <button class="addButton" @click="addTaskHandler">✓</button>
     </div>
     <ul>
