@@ -1,5 +1,23 @@
 # Vue-ToDo
-Experimenting with the Composition API
+## Experimenting with the Composition API
+
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/0bd99303-75a0-4883-b5b7-def574f7683b">
+
+*Image 1: Demonstrates a simple To-Do application created in order to further experiment with vue and Composition API.*
+
+
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/6b824ebd-80dd-49df-8c71-2e8be01ba453">
+
+*Image 2: Demonstrates the about page created by using views and router.*
+
+
+
+
+
+
+
+
+
 # vue-todo
 
 This template should help get you started developing with Vue 3 in Vite.
