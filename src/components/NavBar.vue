@@ -25,6 +25,6 @@ a {
 
 nav a.router-link-exact-active {
   font-weight: bold;
-  text-decoration: underline 5px dotted;
+  border-bottom: 5px dotted; 
 }
 </style>
