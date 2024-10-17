@@ -11,23 +11,20 @@
 
 <style scoped>
 main {
-  flex: 1; /* Allow main to take remaining space */
-  display: flex; /* Make sure contents are displayed in a row */
-  flex-direction: column; /* Stack task list vertically */
-  justify-content: flex-start; /* Align to the top */
-  align-items: center; /* Center contents horizontally */
-  padding: 20px; /* Add padding to the main content */
-  text-align: center;
-  
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;  
 }
 
 .taskList {
-  width: 100%; /* Ensure the task list takes full width */
-  max-width: 80vw; /* Set a max width for better layout */
-  background-color: white; /* Background color for task list */
-  border-radius: 5px; /* Rounded corners */
-  padding: 10px; /* Inner padding */
+  width: 100%;
+  max-width: 80vw; 
+  border-radius: 10px; 
+  padding: 15px;
   background-color: whitesmoke;
-
+  box-shadow: 5px 2px 2px grey;
+  overflow-y: auto;
 }
 </style>

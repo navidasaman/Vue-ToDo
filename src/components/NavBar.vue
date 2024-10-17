@@ -13,15 +13,14 @@ nav {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  box-shadow: 1px 2px 2px grey;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
   color: whitesmoke;
   transition: 0.4s;
   padding: 3px;
-  
 }
 
 nav a.router-link-exact-active {

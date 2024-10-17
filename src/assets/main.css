@@ -21,10 +21,12 @@ html, body {
   margin:0;
   padding:0;
   height: 100vh;
+  overflow-x:hidden;
 }
 
 #app {
   display: flex;
   flex-direction: column; 
   padding:0px 0px 0px 0px;
+  letter-spacing: 4px;
 }

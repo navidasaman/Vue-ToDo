@@ -5,8 +5,8 @@
       <button class="addButton" @click="addTaskHandler">✓</button>
     </div>
     <ul>
-      <li v-for="(task, index) in tasks" :key="index" class="task-item">
-        <span class="task-text">{{ task }}</span>
+      <li v-for="(task, index) in tasks" :key="index" class="taskItem">
+        {{ task }}
         <button class="deleteButton" @click="() => deleteTaskHandler(index)">X</button>
       </li>
     </ul>
@@ -38,6 +38,7 @@ const deleteTaskHandler = (index) => {
   props.deleteTask(index); // Call the deleteTask method in ToDoData.vue parent component
 };
 </script>
+
 <style scoped>
 ul {
   color: black;
@@ -58,7 +59,7 @@ ul {
   height:100%
 }
 
-.task-item {
+.taskItem {
   display: flex;
   justify-content: space-between; 
   padding: 10px; 
@@ -85,8 +86,8 @@ li:nth-child(even) {
 
 input {
   padding: 5px;
-  margin-bottom: 10px; /* Space between input and task list */
-  width: calc(100% - 60px); /* Adjust width to fit the container */
+  margin-bottom: 10px;
+  width: calc(100% - 60px);
   text-align: center;
 }
 </style>
