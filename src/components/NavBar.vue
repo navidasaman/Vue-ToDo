@@ -19,7 +19,7 @@ nav {
 a {
   text-decoration: none;
   color: whitesmoke;
-  transition: 0.4s;
+  transition: 0.3 ease-in-out;
   padding: 3px;
 }
 
