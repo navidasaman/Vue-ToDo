@@ -16,13 +16,7 @@
 
 <script setup lang="ts">
 import { ref, defineProps } from 'vue';
-
-// Props recieving from the parent component ToDoData.vue
-interface Props {
-  addTask: (task: string) => void;
-  deleteTask: (index: number) => void;
-  tasks: string[];
-}
+import Props from 'types/Props';
 
 const props = defineProps<Props>();
 
