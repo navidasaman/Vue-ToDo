@@ -14,27 +14,29 @@
 </template>
 
 
-<script setup>
+<script setup lang="ts">
 import { ref, defineProps } from 'vue';
 
 // Props recieving from the parent component ToDoData.vue
-const props = defineProps({
-  addTask: Function, 
-  deleteTask: Function,
-  tasks: Array,
-});
+interface Props {
+  addTask: (task: string) => void;
+  deleteTask: (index: number) => void;
+  tasks: string[];
+}
+
+const props = defineProps<Props>();
 
 // To create a new state (think as useState in react)
-const newTask = ref('');
+const newTask = ref<string>('');
 
-const addTaskHandler = () => {
+const addTaskHandler = (): void => {
   if (newTask.value.trim() !== '') {
     props.addTask(newTask.value); // Call the addTask method in ToDoData.vue parent component
     newTask.value = ''; // Clears the input field
   }
 };
 
-const deleteTaskHandler = (index) => {
+const deleteTaskHandler = (index: number): void => {
   props.deleteTask(index); // Call the deleteTask method in ToDoData.vue parent component
 };
 </script>

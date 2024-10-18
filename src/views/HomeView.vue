@@ -5,8 +5,8 @@
   </main>
 </template>
 
-<script setup>
-  import ToDoData from '../components/ToDoData.vue'; 
+<script setup lang="ts">
+  import ToDoData from '@/components/ToDoData.vue'; 
 </script>
 
 <style scoped>
