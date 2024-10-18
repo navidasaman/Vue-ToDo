@@ -2,6 +2,7 @@
 ## Experimenting with the Composition API
 
 <img width="429" alt="image" src="https://github.com/user-attachments/assets/b1a7a201-047e-4301-9d7d-de5df29bd2c4">
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/5d6c07b7-d2a9-4402-af79-7c9073e978b3">
 
 
 *Image 1: Demonstrates a responsive simple To-Do application created in order to further experiment with vue and Composition API.*
