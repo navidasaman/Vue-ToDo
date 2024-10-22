@@ -1,9 +1,9 @@
 <template>
   <div>
     <NavBar />
-    <RouterView v-slot="{ Component }">
+    <RouterView v-slot="{ Component: component }">
       <transition name="route" mode="out-in">
-        <component :is="Component" />
+        <component :is="component" />
       </transition>
     </RouterView>
   </div>
