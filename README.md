@@ -12,6 +12,12 @@
 
 *Image 2: Demonstrates the about page created by using views and router.*
 
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/0f141c62-ed47-4e74-af69-dbba47ef3ef8"> <img width="452" alt="image" src="https://github.com/user-attachments/assets/c34d1897-f1af-402b-ab40-972699ce503d">
+
+
+
+*Image 3: Showcases the reusable modal component.*
+
 
 
 
