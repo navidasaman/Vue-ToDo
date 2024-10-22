@@ -24,7 +24,6 @@
   </div>
 </template>
 
-
 <script setup lang="ts">
 import { ref } from 'vue';
 import Modal from '@/components/Modal.vue';
@@ -34,7 +33,6 @@ const modalActive = ref(false);
 const toggleModal = () => {
   modalActive.value = !modalActive.value;
 };
-
 </script>
 
 <style scoped>
@@ -61,10 +59,6 @@ h1 {
     width: 100vw;
     max-width: 80%;
   }  
-
-  .modal {
-    width: 90%;
-  } 
 }
 
 .toggleModalButton {
@@ -76,26 +70,9 @@ h1 {
   border: none;
 }
 
-.modal {
-  position: fixed; 
-  top:35%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-  padding: 20px; 
-  width: 30wv;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #8697C4;
-  color: aliceblue;
-  border-radius: 10px;
-  box-shadow: 1px 2px 2px grey;
-  border: 1px solid whitesmoke;
-}
-
 .modalTransition-enter-active,
 .modalTransition-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 1s ease;
 }
 
 .modalTransition-enter-from,
