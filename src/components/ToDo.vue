@@ -16,9 +16,9 @@
 
 <script setup lang="ts">
 import { ref, defineProps } from 'vue';
-import Props from 'types/Props';
+import { TaskProps } from  '@/types/TaskProps';
 
-const props = defineProps<Props>();
+const props = defineProps<TaskProps>();
 
 // To create a new state (think as useState in react)
 const newTask = ref<string>('');
