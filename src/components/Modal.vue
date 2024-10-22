@@ -8,13 +8,12 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits } from 'vue';
-import { ModalProps } from 'types/ModalProps'; 
+import { ModalProps } from '@/types/ModalProps';
 
-const props = defineProps<ModalProps>(); 
+defineProps<ModalProps>(); 
 const emit = defineEmits(['closeModal']); 
 
-const closeModal = () => {
+const closeModal = (): void => {
   emit('closeModal'); 
 };
 </script>

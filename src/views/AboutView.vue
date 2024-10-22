@@ -30,7 +30,7 @@ import Modal from '@/components/Modal.vue';
 
 const modalActive = ref(false);
 
-const toggleModal = () => {
+const toggleModal = (): void => {
   modalActive.value = !modalActive.value;
 };
 </script>
